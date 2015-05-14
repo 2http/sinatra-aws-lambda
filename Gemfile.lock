@@ -1,0 +1,63 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    aws-sdk (2.0.42)
+      aws-sdk-resources (= 2.0.42)
+    aws-sdk-core (2.0.42)
+      builder (~> 3.0)
+      jmespath (~> 1.0)
+      multi_json (~> 1.0)
+    aws-sdk-resources (2.0.42)
+      aws-sdk-core (= 2.0.42)
+    builder (3.2.2)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    ffi (1.9.8)
+    foreman (0.78.0)
+      thor (~> 0.19.1)
+    hitimes (1.2.2)
+    i18n (0.7.0)
+    jmespath (1.0.2)
+      multi_json (~> 1.0)
+    json (1.8.2)
+    listen (2.10.0)
+      celluloid (~> 0.16.0)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    minitest (5.6.1)
+    multi_json (1.11.0)
+    rack (1.6.0)
+    rack-protection (1.5.3)
+      rack
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rerun (0.10.0)
+      listen (~> 2.7, >= 2.7.3)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (2.0.1)
+    timers (4.0.1)
+      hitimes
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  aws-sdk
+  foreman
+  rerun
+  sinatra
